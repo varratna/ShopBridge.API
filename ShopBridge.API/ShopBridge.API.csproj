@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBridge.API.Core\ShopBridge.API.Core.csproj" />
+    <ProjectReference Include="..\ShopBridge.API.Data\ShopBridge.API.Data.csproj" />
+    <ProjectReference Include="..\ShopBridge.API.Service\ShopBridge.API.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
