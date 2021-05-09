@@ -14,6 +14,10 @@ namespace ShopBridge.API.Core.Models
         public string Name { get; set; }
 
         [Column(TypeName = "decimal(5, 2)")]
+
+
+
+//vomm
         public decimal Price { get; set; }
         public string Manufacturer { get; set; }
     }
